@@ -10,7 +10,7 @@ private:
     std::string owner;
     bool on_sale;
 public:
-    Field(int, bool=false, int = 1, std::string = "None");
+    Field(int, bool=false, int = 50, std::string = "None");
     ~Field();
     void displyFieldData();
     friend class Player;

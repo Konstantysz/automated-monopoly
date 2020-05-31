@@ -15,10 +15,11 @@ private:
     int current_position;
 
 public:
-    Player(std::string, int = 0);
+    Player(std::string, int = 0, int = 0);
     ~Player();
     void showBalance();
     void showFields();
+    void movePlayer(int);
 
     friend class Banker;
 };

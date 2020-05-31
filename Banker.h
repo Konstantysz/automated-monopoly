@@ -16,6 +16,7 @@ public:
     ~Banker();
     void changeBalance(Player &, int);
     void giveFieldToPlayer(Field &, Player &);
+    void payDay(Field &, Player &, Player &);
 };
 
 

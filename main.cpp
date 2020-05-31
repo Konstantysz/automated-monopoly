@@ -6,7 +6,7 @@
 #include "Field.h"
 #include "boardCreator.h"
 
-int initial_balance = 200;
+int initial_balance = 150;
 
 int main() {
 
@@ -15,14 +15,40 @@ int main() {
     Player p1("Red", initial_balance);
     Player p2("Green", initial_balance);
 
-    Banker B;
+    Banker Bank;
+
+// Move Simulation
+    p1.movePlayer(3);
+    std::cout << std::endl;
+
+    board[3].displyFieldData();
+    std::cout << std::endl;
+
+    Bank.payDay(board[3], p1, p2);
+    std::cout << std::endl;
+
+    Bank.giveFieldToPlayer(board[3],p1);
+    std::cout << std::endl;
+
+    board[3].displyFieldData();
+    std::cout << std::endl;
+
+
+    p2.movePlayer(3);
+    std::cout << std::endl;
+    board[3].displyFieldData();
+    std::cout << std::endl;
+    Bank.payDay(board[3], p2, p1);
+    std::cout << std::endl;
+
+
+    p1.showBalance();
+    p2.showBalance();
+    std::cout << std::endl;
 
     p1.showFields();
-    board[1].displyFieldData();
-    B.giveFieldToPlayer(board[1],p1);
-    B.giveFieldToPlayer(board[3],p1);
-    p1.showFields();
-    board[1].displyFieldData();
+    p2.showFields();
+    std::cout << std::endl;
 
     return 0;
 }

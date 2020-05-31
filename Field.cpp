@@ -15,5 +15,4 @@ void Field::displyFieldData() {
     std::cout << "Price: " << price << std::endl;
     std::cout << "Owner: " << owner << std::endl;
     std::cout << "Is it on sale?: " << on_sale << std::endl;
-    std::cout << std::endl;
 }
