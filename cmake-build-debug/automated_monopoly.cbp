@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="automated_monopoly"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automated_monopoly">
+				<Option output="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/automated_monopoly.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 automated_monopoly"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automated_monopoly/fast">
+				<Option output="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/automated_monopoly.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\program files\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 automated_monopoly/fast"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Player.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Player.h">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/main.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

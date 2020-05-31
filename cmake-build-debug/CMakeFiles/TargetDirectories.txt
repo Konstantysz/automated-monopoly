@@ -1,0 +1,3 @@
+C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir
+C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/rebuild_cache.dir
