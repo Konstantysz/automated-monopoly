@@ -122,6 +122,60 @@ automated_monopoly/fast:
 	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/build
 .PHONY : automated_monopoly/fast
 
+Banker.obj: Banker.cpp.obj
+
+.PHONY : Banker.obj
+
+# target to build an object file
+Banker.cpp.obj:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Banker.cpp.obj
+.PHONY : Banker.cpp.obj
+
+Banker.i: Banker.cpp.i
+
+.PHONY : Banker.i
+
+# target to preprocess a source file
+Banker.cpp.i:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Banker.cpp.i
+.PHONY : Banker.cpp.i
+
+Banker.s: Banker.cpp.s
+
+.PHONY : Banker.s
+
+# target to generate assembly for a file
+Banker.cpp.s:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Banker.cpp.s
+.PHONY : Banker.cpp.s
+
+Field.obj: Field.cpp.obj
+
+.PHONY : Field.obj
+
+# target to build an object file
+Field.cpp.obj:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Field.cpp.obj
+.PHONY : Field.cpp.obj
+
+Field.i: Field.cpp.i
+
+.PHONY : Field.i
+
+# target to preprocess a source file
+Field.cpp.i:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Field.cpp.i
+.PHONY : Field.cpp.i
+
+Field.s: Field.cpp.s
+
+.PHONY : Field.s
+
+# target to generate assembly for a file
+Field.cpp.s:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Field.cpp.s
+.PHONY : Field.cpp.s
+
 Player.obj: Player.cpp.obj
 
 .PHONY : Player.obj
@@ -185,6 +239,12 @@ help:
 	@echo ... automated_monopoly
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Banker.obj
+	@echo ... Banker.i
+	@echo ... Banker.s
+	@echo ... Field.obj
+	@echo ... Field.i
+	@echo ... Field.s
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s

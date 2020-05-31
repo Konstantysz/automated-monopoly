@@ -73,12 +73,12 @@ clean: CMakeFiles/automated_monopoly.dir/clean
 CMakeFiles/automated_monopoly.dir/all:
 	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/depend
 	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target automated_monopoly"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target automated_monopoly"
 .PHONY : CMakeFiles/automated_monopoly.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/automated_monopoly.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/automated_monopoly.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/automated_monopoly.dir/rule

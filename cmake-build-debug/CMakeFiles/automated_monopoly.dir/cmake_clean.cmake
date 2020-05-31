@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/automated_monopoly.dir/Banker.cpp.obj"
+  "CMakeFiles/automated_monopoly.dir/Field.cpp.obj"
   "CMakeFiles/automated_monopoly.dir/Player.cpp.obj"
   "CMakeFiles/automated_monopoly.dir/main.cpp.obj"
   "automated_monopoly.exe"

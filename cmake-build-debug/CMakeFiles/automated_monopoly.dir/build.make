@@ -82,21 +82,51 @@ CMakeFiles/automated_monopoly.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automated_monopoly.dir/Player.cpp.s"
 	C:\PROGRA~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Player.cpp" -o CMakeFiles\automated_monopoly.dir\Player.cpp.s
 
+CMakeFiles/automated_monopoly.dir/Banker.cpp.obj: CMakeFiles/automated_monopoly.dir/flags.make
+CMakeFiles/automated_monopoly.dir/Banker.cpp.obj: ../Banker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/automated_monopoly.dir/Banker.cpp.obj"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\automated_monopoly.dir\Banker.cpp.obj -c "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Banker.cpp"
+
+CMakeFiles/automated_monopoly.dir/Banker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automated_monopoly.dir/Banker.cpp.i"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Banker.cpp" > CMakeFiles\automated_monopoly.dir\Banker.cpp.i
+
+CMakeFiles/automated_monopoly.dir/Banker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automated_monopoly.dir/Banker.cpp.s"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Banker.cpp" -o CMakeFiles\automated_monopoly.dir\Banker.cpp.s
+
+CMakeFiles/automated_monopoly.dir/Field.cpp.obj: CMakeFiles/automated_monopoly.dir/flags.make
+CMakeFiles/automated_monopoly.dir/Field.cpp.obj: ../Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/automated_monopoly.dir/Field.cpp.obj"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\automated_monopoly.dir\Field.cpp.obj -c "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Field.cpp"
+
+CMakeFiles/automated_monopoly.dir/Field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automated_monopoly.dir/Field.cpp.i"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Field.cpp" > CMakeFiles\automated_monopoly.dir\Field.cpp.i
+
+CMakeFiles/automated_monopoly.dir/Field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automated_monopoly.dir/Field.cpp.s"
+	C:\PROGRA~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\Field.cpp" -o CMakeFiles\automated_monopoly.dir\Field.cpp.s
+
 # Object files for target automated_monopoly
 automated_monopoly_OBJECTS = \
 "CMakeFiles/automated_monopoly.dir/main.cpp.obj" \
-"CMakeFiles/automated_monopoly.dir/Player.cpp.obj"
+"CMakeFiles/automated_monopoly.dir/Player.cpp.obj" \
+"CMakeFiles/automated_monopoly.dir/Banker.cpp.obj" \
+"CMakeFiles/automated_monopoly.dir/Field.cpp.obj"
 
 # External object files for target automated_monopoly
 automated_monopoly_EXTERNAL_OBJECTS =
 
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/main.cpp.obj
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/Player.cpp.obj
+automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/Banker.cpp.obj
+automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/Field.cpp.obj
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/build.make
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/linklibs.rsp
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/objects1.rsp
 automated_monopoly.exe: CMakeFiles/automated_monopoly.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable automated_monopoly.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\koste\Desktop\Studia\Semestr VI\Programming of Photonic Devices\PROJECT\automated-monopoly\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable automated_monopoly.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\automated_monopoly.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

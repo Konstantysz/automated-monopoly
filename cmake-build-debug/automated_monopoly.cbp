@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Banker.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Banker.h">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Field.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Field.h">
+			<Option target="automated_monopoly"/>
+		</Unit>
 		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Player.cpp">
 			<Option target="automated_monopoly"/>
 		</Unit>
