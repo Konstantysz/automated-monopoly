@@ -13,8 +13,13 @@ CMakeFiles/automated_monopoly.dir/Player.cpp.obj: ../Field.h
 CMakeFiles/automated_monopoly.dir/Player.cpp.obj: ../Player.cpp
 CMakeFiles/automated_monopoly.dir/Player.cpp.obj: ../Player.h
 
+CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj: ../Field.h
+CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj: ../boardCreator.cpp
+CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj: ../boardCreator.h
+
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../Banker.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../Field.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../Player.h
+CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../boardCreator.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../main.cpp
 

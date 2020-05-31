@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Banker.cpp" "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir/Banker.cpp.obj"
   "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Field.cpp" "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir/Field.cpp.obj"
   "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Player.cpp" "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir/Player.cpp.obj"
+  "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/boardCreator.cpp" "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj"
   "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/main.cpp" "C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/cmake-build-debug/CMakeFiles/automated_monopoly.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

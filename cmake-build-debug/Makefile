@@ -203,6 +203,33 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+boardCreator.obj: boardCreator.cpp.obj
+
+.PHONY : boardCreator.obj
+
+# target to build an object file
+boardCreator.cpp.obj:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj
+.PHONY : boardCreator.cpp.obj
+
+boardCreator.i: boardCreator.cpp.i
+
+.PHONY : boardCreator.i
+
+# target to preprocess a source file
+boardCreator.cpp.i:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/boardCreator.cpp.i
+.PHONY : boardCreator.cpp.i
+
+boardCreator.s: boardCreator.cpp.s
+
+.PHONY : boardCreator.s
+
+# target to generate assembly for a file
+boardCreator.cpp.s:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/boardCreator.cpp.s
+.PHONY : boardCreator.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... boardCreator.obj
+	@echo ... boardCreator.i
+	@echo ... boardCreator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

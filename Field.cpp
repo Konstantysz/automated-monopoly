@@ -7,7 +7,9 @@ Field::Field(int i, bool os, int p, std::string o){
     this->price=p;
     this->owner=o;
 }
+
 Field::~Field(){}
+
 void Field::displyFieldData() {
     std::cout << "Field id: " << id << std::endl;
     std::cout << "Price: " << price << std::endl;

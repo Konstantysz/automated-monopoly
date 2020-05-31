@@ -98,6 +98,12 @@
 		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/Player.h">
 			<Option target="automated_monopoly"/>
 		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/boardCreator.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/boardCreator.h">
+			<Option target="automated_monopoly"/>
+		</Unit>
 		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/main.cpp">
 			<Option target="automated_monopoly"/>
 		</Unit>
