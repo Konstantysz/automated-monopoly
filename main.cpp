@@ -34,11 +34,11 @@ int main() {
     std::cout << std::endl;
 
 
-    p2.movePlayer(3);
+    p2.movePlayer(4);
     std::cout << std::endl;
-    board[3].displyFieldData();
+    board[4].displyFieldData();
     std::cout << std::endl;
-    Bank.payDay(board[3], p2, p1);
+    Bank.payDay(board[4], p2, p1);
     std::cout << std::endl;
 
 
