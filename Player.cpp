@@ -1,10 +1,11 @@
 #include <iostream>
 #include "Player.h"
 
-Player::Player(std::string col, int bal, int pos){
+Player::Player(std::string col, int bal, int pos, int l_pos){
     this->color = col;
     this->balance = bal;
     this->current_position = pos;
+    this->last_turn_position = l_pos;
 }
 
 Player::~Player(){}

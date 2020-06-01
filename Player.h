@@ -15,7 +15,7 @@ private:
     int current_position;
 
 public:
-    Player(std::string, int = 0, int = 0);
+    Player(std::string, int = 0, int = 0, int = -1);
     ~Player();
     void showBalance();
     void showFields();

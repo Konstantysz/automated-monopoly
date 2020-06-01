@@ -257,6 +257,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+singleTurn.obj: singleTurn.cpp.obj
+
+.PHONY : singleTurn.obj
+
+# target to build an object file
+singleTurn.cpp.obj:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj
+.PHONY : singleTurn.cpp.obj
+
+singleTurn.i: singleTurn.cpp.i
+
+.PHONY : singleTurn.i
+
+# target to preprocess a source file
+singleTurn.cpp.i:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/singleTurn.cpp.i
+.PHONY : singleTurn.cpp.i
+
+singleTurn.s: singleTurn.cpp.s
+
+.PHONY : singleTurn.s
+
+# target to generate assembly for a file
+singleTurn.cpp.s:
+	$(MAKE) -f CMakeFiles\automated_monopoly.dir\build.make CMakeFiles/automated_monopoly.dir/singleTurn.cpp.s
+.PHONY : singleTurn.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -281,6 +308,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... singleTurn.obj
+	@echo ... singleTurn.i
+	@echo ... singleTurn.s
 .PHONY : help
 
 

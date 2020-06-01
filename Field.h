@@ -13,6 +13,7 @@ public:
     Field(int, bool=false, int = 50, std::string = "None");
     ~Field();
     void displyFieldData();
+
     friend class Player;
     friend class Banker;
 };

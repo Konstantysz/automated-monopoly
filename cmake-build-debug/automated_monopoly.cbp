@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/main.cpp">
 			<Option target="automated_monopoly"/>
 		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/singleTurn.cpp">
+			<Option target="automated_monopoly"/>
+		</Unit>
+		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/singleTurn.h">
+			<Option target="automated_monopoly"/>
+		</Unit>
 		<Unit filename="C:/Users/koste/Desktop/Studia/Semestr VI/Programming of Photonic Devices/PROJECT/automated-monopoly/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

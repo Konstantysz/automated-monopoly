@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/automated_monopoly.dir/Player.cpp.obj"
   "CMakeFiles/automated_monopoly.dir/boardCreator.cpp.obj"
   "CMakeFiles/automated_monopoly.dir/main.cpp.obj"
+  "CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj"
   "automated_monopoly.exe"
   "automated_monopoly.exe.manifest"
   "automated_monopoly.pdb"

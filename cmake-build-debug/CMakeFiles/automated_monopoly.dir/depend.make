@@ -22,4 +22,11 @@ CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../Field.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../Player.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../boardCreator.h
 CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/automated_monopoly.dir/main.cpp.obj: ../singleTurn.h
+
+CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj: ../Banker.h
+CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj: ../Field.h
+CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj: ../Player.h
+CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj: ../singleTurn.cpp
+CMakeFiles/automated_monopoly.dir/singleTurn.cpp.obj: ../singleTurn.h
 
