@@ -10,49 +10,16 @@
 
 const int initial_balance = 150;
 
-int main() {
 
+
+int main() {
     std::vector<Field> board = boardCreator();
+    Banker Bank;
 
     Player p1("Red", initial_balance);
     Player p2("Green", initial_balance);
 
-    Banker Bank;
-
-    singleTurn(p1, 3, p2);
-
-// Move Simulation
-//    p1.movePlayer(3);
-//    std::cout << std::endl;
-//
-//    board[3].displyFieldData();
-//    std::cout << std::endl;
-//
-//    Bank.payDay(board[3], p1, p2);
-//    std::cout << std::endl;
-//
-//    Bank.giveFieldToPlayer(board[3],p1);
-//    std::cout << std::endl;
-//
-//    board[3].displyFieldData();
-//    std::cout << std::endl;
-//
-//
-//    p2.movePlayer(4);
-//    std::cout << std::endl;
-//    board[4].displyFieldData();
-//    std::cout << std::endl;
-//    Bank.payDay(board[4], p2, p1);
-//    std::cout << std::endl;
-//
-//
-//    p1.showBalance();
-//    p2.showBalance();
-//    std::cout << std::endl;
-//
-//    p1.showFields();
-//    p2.showFields();
-//    std::cout << std::endl;
+    singleTurn(p1, 3, p2, Bank, board);
 
     return 0;
 }
