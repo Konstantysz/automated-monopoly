@@ -22,6 +22,7 @@ void Banker::giveFieldToPlayer(Field &f, Player &p){
         this->changeBalance(p, -f.price);
         p.owned_fields.push_back(f);
         f.owner = p.color;
+        f.on_sale = false;
         std::cout << "Player " << p.color << " now owns field: " << f.id << std::endl;
     } else {
         std::cout << "This field is not on sale!" << std::endl;

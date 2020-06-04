@@ -19,6 +19,7 @@ int main() {
     Player p1("Red", initial_balance);
     Player p2("Green", initial_balance);
 
+    titleDraw();
     singleTurn(p1, 3, p2, Bank, board);
 
     return 0;

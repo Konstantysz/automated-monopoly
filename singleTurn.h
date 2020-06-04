@@ -9,4 +9,6 @@
 
 void singleTurn(Player &, int, Player &, Banker, std::vector<Field>);
 
+void titleDraw();
+
 #endif //AUTOMATED_MONOPOLY_SINGLETURN_H

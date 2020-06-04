@@ -14,5 +14,6 @@ void Field::displyFieldData() {
     std::cout << "Field id: " << id << std::endl;
     std::cout << "Price: " << price << std::endl;
     std::cout << "Owner: " << owner << std::endl;
-    std::cout << "Is it on sale?: " << on_sale << std::endl;
+    std::string on_sale_bool = (on_sale) ? "Yes" : "No";
+    std::cout << "Is it on sale?: " << on_sale_bool;
 }
